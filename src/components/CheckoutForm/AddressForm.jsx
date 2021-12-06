@@ -88,10 +88,10 @@ const AddressForm = ({checkoutToken, next}) => {
             <Grid container spacing={3}>
               <FormInput name='firstName' label='First name' />
               <FormInput name='lastName' label='Last name' />
-              <FormInput name='address' label='Address' />
+              <FormInput name='address' label='Address line' />
               <FormInput name='email' label='Email' />
               <FormInput name='city' label='City' />
-              <FormInput name='zip' label='ZIP / Postal code' />
+              <FormInput name='zip' label='Zip / Postal code' />
               <Grid item xs={12} sm={6}>
                 <InputLabel>Shipping Country</InputLabel>
                 <Select

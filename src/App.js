@@ -71,7 +71,7 @@ const App = () => {
   }, []);
 
   // console.log(products);
-  console.log(cart);
+  // console.log(cart);
 
   return (
     <Router>
